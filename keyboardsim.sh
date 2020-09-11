@@ -6,7 +6,7 @@ echo "To terminate the simulation, enter the [fn] key"
 
 numb=1
 export DISPLAY=:0.0
-export XAUTHORITY=/home/kali/.Xauthority 
+export XAUTHORITY=/home/user/.Xauthority 
 
 while [[ $numb == 1 ]]; 
 do
