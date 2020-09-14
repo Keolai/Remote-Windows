@@ -50,6 +50,6 @@ SSH into the remote computer using the -Y and -l modifiers (replace `user` with 
 
 Then run the scripts:
 
-```./urlopen```
+```./masteropen```
 
 ```./keyboardsim```
