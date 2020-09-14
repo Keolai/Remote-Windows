@@ -42,7 +42,7 @@ Copy the repository and move the scripts to your user folder, then run:
 
 **To Use**
 
-First, uncomment "X11Forwarding no" in /etc/ssh/sshd_config on the remote computer.
+First, uncomment "X11Forwarding no" in `/etc/ssh/sshd_config` on the remote computer.
 
 SSH into the remote computer using the -Y and -l modifiers (replace `user` with your username):
 
