@@ -1,5 +1,5 @@
 #!/bin/bash
-#remote keyboard input script using xdotool, ssh with the -X modifier to use
+#remote keyboard input script using xdotool, ssh with the -Y modifier to use
 
 echo "Starting keyboard simulation..."
 echo "To terminate the simulation, enter the [fn] key"
