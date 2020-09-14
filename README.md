@@ -1,7 +1,5 @@
 # Remote-Windows
 
-**FIXING URLOPENER**
-
 **Requesits**
 
 On remote computer-
@@ -28,7 +26,7 @@ https://www.xquartz.org/
 
 On the remote computer: 
 
-Go into the `keyboardsim.sh` and `urlopen.sh` scripts, and replace "kali" with your username in the following line:
+Go into the `keyboardsim.sh` and `urlopen.sh` scripts, and replace `kali` with your username in the following line:
 
 ```export XAUTHORITY=/home/kali/.Xauthority```
 
@@ -42,7 +40,7 @@ Copy the repository and move the scripts to your user folder, then run:
 
 **To Use**
 
-First, uncomment "X11Forwarding no" in `/etc/ssh/sshd_config` on the remote computer.
+First, uncomment `X11Forwarding no` in `/etc/ssh/sshd_config` on the remote computer.
 
 SSH into the remote computer using the -Y and -l modifiers (replace `user` with your username):
 
