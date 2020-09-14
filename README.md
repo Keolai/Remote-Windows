@@ -2,7 +2,7 @@
 
 **Requesits**
 
-On remote computer-
+On the remote computer-
 
 *xdotools*
 
